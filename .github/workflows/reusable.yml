@@ -1,0 +1,8 @@
+name: Reusable Deployment Workflow
+on: workflow_call
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Output Inormation
+              run: echo "Deploying & Uploading artifacts..."
